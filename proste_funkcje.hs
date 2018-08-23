@@ -10,7 +10,7 @@ kwadrat :: Integer -> Integer
 kwadrat x = x * x
 
 --funkcja suma kwadratów f(x,y)=x*x+y*y
---suma_kwadratow :: Num a => a -> a -> a taki daj Haskell
+--suma_kwadratow :: Num a => a -> a -> a taki daje Haskell
 suma_kwadratow :: Integer -> Integer -> Integer
 suma_kwadratow x y = kwadrat x + kwadrat y
 
